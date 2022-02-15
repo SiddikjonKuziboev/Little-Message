@@ -56,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D11193627BC24D80026B96C /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D54C64627B947F900222D71 /* MessageTVC.xib */,
+				4D9692A627B8E2A5003B0DF8 /* PhotoTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
 		4DACDEEE27B6BF7200714B31 = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				4DACDF1127B6CF0600714B31 /* SendMessageVC.swift */,
-				4DACDF1227B6CF0600714B31 /* SendMessageVC.xib */,
 				4DACDF1527B6DC5F00714B31 /* TVC */,
 			);
 			path = Controller;
@@ -112,6 +120,8 @@
 		4DACDF1027B6BFD700714B31 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4DACDF1227B6CF0600714B31 /* SendMessageVC.xib */,
+				4D11193627BC24D80026B96C /* TVC */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -120,9 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				4D54C64727B947FA00222D71 /* MessageTVC.swift */,
-				4D54C64627B947F900222D71 /* MessageTVC.xib */,
 				4D9692A027B8E250003B0DF8 /* PhotoTVC.swift */,
-				4D9692A627B8E2A5003B0DF8 /* PhotoTVC.xib */,
 			);
 			path = TVC;
 			sourceTree = "<group>";
