@@ -112,7 +112,6 @@ class SendMessageVC: UIViewController {
         RealmData.shared.saveIteams(data: d)
         textView.text.removeAll()
         let indexPath = IndexPath.init(row: data[data.count-1].orders.count, section: data.count-1)
- print(indexPath,"index")
         data[indexPath.section].orders.insert(d, at: indexPath.row)
         tableView.insertRows(at: [indexPath], with: .automatic)
         tableView.scrollToRow(at: indexPath, at: .bottom, animated: true)
@@ -125,7 +124,6 @@ class SendMessageVC: UIViewController {
           }else {
               showMediaAlert()
           }
-           print(data,"dataaaa")
         }
          
     
@@ -255,11 +253,9 @@ extension SendMessageVC: UITableViewDelegate, UITableViewDataSource {
         return UIContextMenuConfiguration(identifier: indexPath as NSCopying, previewProvider: nil) {[self] _  in
 
             if let _ = tableView.cellForRow(at: indexPath) as? MessageTVC {
-                print("deleteeee")
                     let delete = UIAction(title: "Delete", image: UIImage(systemName: "trash"), attributes: .destructive) { _ in
 
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-                        print(indexPath,"11111")
                         RealmData.shared.deleteIteam(data:  self.data[indexPath.section].orders[indexPath.row])
 
                             self.tableView.beginUpdates()
@@ -267,7 +263,6 @@ extension SendMessageVC: UITableViewDelegate, UITableViewDataSource {
 
                         self.tableView.deleteRows(at: [indexPath], with: .automatic)
                         tableView.endUpdates()
-                        print(indexPath,"222222")
 
                         }
                     }
@@ -275,7 +270,6 @@ extension SendMessageVC: UITableViewDelegate, UITableViewDataSource {
 
 
             }else if let _ = tableView.cellForRow(at: indexPath) as? PhotoTVC{
-                print("deleteeee photo")
 
 
                 let delete = UIAction(title: "Delete", image: UIImage(systemName: "trash"), attributes: .destructive) { _ in
@@ -355,16 +349,6 @@ extension SendMessageVC: UIImagePickerControllerDelegate, UINavigationController
             let imgData = originalImg.jpegData(compressionQuality: 0.1)!
             
             addIteamToRealm(type: Keys.photo, imgData: imgData)
-//            print(imgData,"imageData")
-//            let d = MessageRealmData()
-//            d.type = Keys.photo
-//            d.created_at = MessageRealmData.getCurrentTime()
-//            d.user = MessageRealmData.UserType.second.rawValue
-//            d.id = UUID().uuidString
-//            d.img = imgData
-//            RealmData.shared.saveIteams(data: d)
-//            data[data.count-1].orders.insert(d, at: data[data.count-1].orders.count)
-//            tableView.reloadData()
 
         default:
             break

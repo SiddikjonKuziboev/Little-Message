@@ -17,7 +17,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="362" height="254"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ib6-X1-C0O">
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ib6-X1-C0O">
                         <rect key="frame" x="98.5" y="5" width="253.5" height="230"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Pea-Kp-09i">
@@ -132,7 +132,6 @@
                     <constraint firstAttribute="bottom" secondItem="Ib6-X1-C0O" secondAttribute="bottom" constant="5" id="0T2-pE-m8O"/>
                     <constraint firstItem="Ib6-X1-C0O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="CUL-a7-QZQ"/>
                     <constraint firstItem="Ib6-X1-C0O" firstAttribute="width" relation="lessThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.7" id="HsJ-cw-DBq"/>
-                    <constraint firstAttribute="trailing" secondItem="Ib6-X1-C0O" secondAttribute="trailing" constant="10" id="acp-IR-YwQ"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
