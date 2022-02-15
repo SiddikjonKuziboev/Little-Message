@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D54C64827B947FA00222D71 /* MessageTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D54C64627B947F900222D71 /* MessageTVC.xib */; };
+		4D54C64927B947FA00222D71 /* MessageTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54C64727B947FA00222D71 /* MessageTVC.swift */; };
+		4D9692A127B8E250003B0DF8 /* PhotoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9692A027B8E250003B0DF8 /* PhotoTVC.swift */; };
+		4D9692A727B8E2A5003B0DF8 /* PhotoTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9692A627B8E2A5003B0DF8 /* PhotoTVC.xib */; };
+		4D9692AB27B8E361003B0DF8 /* MessageDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9692AA27B8E361003B0DF8 /* MessageDM.swift */; };
+		4D9692AD27B8E3E2003B0DF8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9692AC27B8E3E2003B0DF8 /* Extensions.swift */; };
+		4D9692AF27B8EC61003B0DF8 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9692AE27B8EC61003B0DF8 /* Keys.swift */; };
+		4D9692B127B8F1BD003B0DF8 /* RealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9692B027B8F1BD003B0DF8 /* RealmData.swift */; };
 		4DACDEFB27B6BF7200714B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACDEFA27B6BF7200714B31 /* AppDelegate.swift */; };
-		4DACDEFD27B6BF7200714B31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACDEFC27B6BF7200714B31 /* SceneDelegate.swift */; };
-		4DACDEFF27B6BF7200714B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACDEFE27B6BF7200714B31 /* ViewController.swift */; };
-		4DACDF0227B6BF7200714B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DACDF0027B6BF7200714B31 /* Main.storyboard */; };
 		4DACDF0427B6BF7400714B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DACDF0327B6BF7400714B31 /* Assets.xcassets */; };
 		4DACDF0727B6BF7400714B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DACDF0527B6BF7400714B31 /* LaunchScreen.storyboard */; };
+		4DACDF1327B6CF0600714B31 /* SendMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACDF1127B6CF0600714B31 /* SendMessageVC.swift */; };
+		4DACDF1427B6CF0600714B31 /* SendMessageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DACDF1227B6CF0600714B31 /* SendMessageVC.xib */; };
+		D862AB9A226A560B6806B007 /* Pods_LittleMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64877C2E214448B3F354B00E /* Pods_LittleMessenger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		274632DE658465ED94B50044 /* Pods-LittleMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleMessenger.debug.xcconfig"; path = "Target Support Files/Pods-LittleMessenger/Pods-LittleMessenger.debug.xcconfig"; sourceTree = "<group>"; };
+		4D54C64627B947F900222D71 /* MessageTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTVC.xib; sourceTree = "<group>"; };
+		4D54C64727B947FA00222D71 /* MessageTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTVC.swift; sourceTree = "<group>"; };
+		4D9692A027B8E250003B0DF8 /* PhotoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTVC.swift; sourceTree = "<group>"; };
+		4D9692A627B8E2A5003B0DF8 /* PhotoTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoTVC.xib; sourceTree = "<group>"; };
+		4D9692AA27B8E361003B0DF8 /* MessageDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDM.swift; sourceTree = "<group>"; };
+		4D9692AC27B8E3E2003B0DF8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4D9692AE27B8EC61003B0DF8 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		4D9692B027B8F1BD003B0DF8 /* RealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmData.swift; sourceTree = "<group>"; };
 		4DACDEF727B6BF7200714B31 /* LittleMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DACDEFA27B6BF7200714B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DACDEFC27B6BF7200714B31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4DACDEFE27B6BF7200714B31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DACDF0127B6BF7200714B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DACDF0327B6BF7400714B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DACDF0627B6BF7400714B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DACDF0827B6BF7400714B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DACDF1127B6CF0600714B31 /* SendMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageVC.swift; sourceTree = "<group>"; };
+		4DACDF1227B6CF0600714B31 /* SendMessageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendMessageVC.xib; sourceTree = "<group>"; };
+		64877C2E214448B3F354B00E /* Pods_LittleMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittleMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EFFF8E372B6E979CC2AC7E /* Pods-LittleMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleMessenger.release.xcconfig"; path = "Target Support Files/Pods-LittleMessenger/Pods-LittleMessenger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D862AB9A226A560B6806B007 /* Pods_LittleMessenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				4DACDEF927B6BF7200714B31 /* LittleMessenger */,
 				4DACDEF827B6BF7200714B31 /* Products */,
+				DF1DCA94EE5D3CCCF75FACBD /* Pods */,
+				C1853D52C10508C112AE5031 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +78,70 @@
 			isa = PBXGroup;
 			children = (
 				4DACDEFA27B6BF7200714B31 /* AppDelegate.swift */,
-				4DACDEFC27B6BF7200714B31 /* SceneDelegate.swift */,
-				4DACDEFE27B6BF7200714B31 /* ViewController.swift */,
-				4DACDF0027B6BF7200714B31 /* Main.storyboard */,
+				4D9692AE27B8EC61003B0DF8 /* Keys.swift */,
+				4D9692AC27B8E3E2003B0DF8 /* Extensions.swift */,
+				4DACDF0E27B6BFC100714B31 /* Model */,
+				4DACDF1027B6BFD700714B31 /* View */,
+				4DACDF0F27B6BFCC00714B31 /* Controller */,
 				4DACDF0327B6BF7400714B31 /* Assets.xcassets */,
 				4DACDF0527B6BF7400714B31 /* LaunchScreen.storyboard */,
 				4DACDF0827B6BF7400714B31 /* Info.plist */,
 			);
 			path = LittleMessenger;
+			sourceTree = "<group>";
+		};
+		4DACDF0E27B6BFC100714B31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D9692AA27B8E361003B0DF8 /* MessageDM.swift */,
+				4D9692B027B8F1BD003B0DF8 /* RealmData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DACDF0F27B6BFCC00714B31 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DACDF1127B6CF0600714B31 /* SendMessageVC.swift */,
+				4DACDF1227B6CF0600714B31 /* SendMessageVC.xib */,
+				4DACDF1527B6DC5F00714B31 /* TVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4DACDF1027B6BFD700714B31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DACDF1527B6DC5F00714B31 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D54C64727B947FA00222D71 /* MessageTVC.swift */,
+				4D54C64627B947F900222D71 /* MessageTVC.xib */,
+				4D9692A027B8E250003B0DF8 /* PhotoTVC.swift */,
+				4D9692A627B8E2A5003B0DF8 /* PhotoTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		C1853D52C10508C112AE5031 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64877C2E214448B3F354B00E /* Pods_LittleMessenger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF1DCA94EE5D3CCCF75FACBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				274632DE658465ED94B50044 /* Pods-LittleMessenger.debug.xcconfig */,
+				B8EFFF8E372B6E979CC2AC7E /* Pods-LittleMessenger.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DACDF0B27B6BF7400714B31 /* Build configuration list for PBXNativeTarget "LittleMessenger" */;
 			buildPhases = (
+				0DBB7CA550380186738A195F /* [CP] Check Pods Manifest.lock */,
 				4DACDEF327B6BF7200714B31 /* Sources */,
 				4DACDEF427B6BF7200714B31 /* Frameworks */,
 				4DACDEF527B6BF7200714B31 /* Resources */,
+				060ADC839DD13036E6BE2AA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +205,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DACDF0727B6BF7400714B31 /* LaunchScreen.storyboard in Resources */,
+				4D54C64827B947FA00222D71 /* MessageTVC.xib in Resources */,
+				4DACDF1427B6CF0600714B31 /* SendMessageVC.xib in Resources */,
+				4D9692A727B8E2A5003B0DF8 /* PhotoTVC.xib in Resources */,
 				4DACDF0427B6BF7400714B31 /* Assets.xcassets in Resources */,
-				4DACDF0227B6BF7200714B31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060ADC839DD13036E6BE2AA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittleMessenger/Pods-LittleMessenger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittleMessenger/Pods-LittleMessenger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LittleMessenger/Pods-LittleMessenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DBB7CA550380186738A195F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittleMessenger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DACDEF327B6BF7200714B31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DACDEFF27B6BF7200714B31 /* ViewController.swift in Sources */,
+				4D9692A127B8E250003B0DF8 /* PhotoTVC.swift in Sources */,
+				4D9692AB27B8E361003B0DF8 /* MessageDM.swift in Sources */,
+				4D9692AD27B8E3E2003B0DF8 /* Extensions.swift in Sources */,
+				4DACDF1327B6CF0600714B31 /* SendMessageVC.swift in Sources */,
 				4DACDEFB27B6BF7200714B31 /* AppDelegate.swift in Sources */,
-				4DACDEFD27B6BF7200714B31 /* SceneDelegate.swift in Sources */,
+				4D9692B127B8F1BD003B0DF8 /* RealmData.swift in Sources */,
+				4D54C64927B947FA00222D71 /* MessageTVC.swift in Sources */,
+				4D9692AF27B8EC61003B0DF8 /* Keys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4DACDF0027B6BF7200714B31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DACDF0127B6BF7200714B31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4DACDF0527B6BF7400714B31 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +404,7 @@
 		};
 		4DACDF0C27B6BF7400714B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274632DE658465ED94B50044 /* Pods-LittleMessenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +413,10 @@
 				DEVELOPMENT_TEAM = KZ9ZFJVL8G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LittleMessenger/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kameradan foydalanishga ruhsat berasizmi?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Kameradan foydalanishga ruhsat berasizmi?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +434,7 @@
 		};
 		4DACDF0D27B6BF7400714B31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EFFF8E372B6E979CC2AC7E /* Pods-LittleMessenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +443,10 @@
 				DEVELOPMENT_TEAM = KZ9ZFJVL8G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LittleMessenger/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kameradan foydalanishga ruhsat berasizmi?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Kameradan foydalanishga ruhsat berasizmi?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
