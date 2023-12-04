@@ -111,9 +111,18 @@ class SendMessageVC: UIViewController {
         d.img = imgData
         RealmData.shared.saveIteams(data: d)
         textView.text.removeAll()
-        let indexPath = IndexPath.init(row: data[data.count-1].orders.count, section: data.count-1)
-        data[indexPath.section].orders.insert(d, at: indexPath.row)
-        tableView.insertRows(at: [indexPath], with: .automatic)
+        
+        let indexPath : IndexPath!
+        if data.isEmpty {
+            indexPath = IndexPath.init(row: 0, section: 0)
+            data.append(Message(date: MessageRealmData.getCurrentTime(), orders: [d]))
+            tableView.reloadData()
+        }else {
+            indexPath = IndexPath.init(row: data[data.count-1].orders.count, section: data.count-1)
+            data[indexPath.section].orders.insert(d, at: indexPath.row)
+            tableView.insertRows(at: [indexPath], with: .automatic)
+        }
+       
         tableView.scrollToRow(at: indexPath, at: .bottom, animated: true)
     }
        
